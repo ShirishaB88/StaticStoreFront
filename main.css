@@ -1,13 +1,12 @@
 /*Common Elements*/
 
-body
-{
+body{
     background: rgb(233, 185, 185) no-repeat fixed top center;
     background-size: 100% 100%;
     margin: 0px;
+}
     
    
-}
 
 .logo{
     width: 1in;
@@ -15,19 +14,17 @@ body
     float: left;
     border-radius: 2em;
     padding-left: 0.2em;
-   
-   
 }
+   
+   
 
-#cart
-{
+#cart{
     width:0.5cm;
     height:0.5cm;
 
 }
 
-header
-{
+header{
     width: 100%;
     height: 100px;
     position:inherit;
@@ -37,14 +34,12 @@ header
 }   
     
     
-ol
-{
+ol{
     font-size: 1.5em;
     margin: 1 0 0 1.0em;
     padding: 1 0 0 1.0em;
 }
-ol li
-{
+ol li{
     margin: 0;
     padding: 0 0 0.2em;
 }
@@ -66,15 +61,18 @@ nav {
     padding: 0.2em 0.2em 0.5em;
     margin: 0.5em 0 ;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 nav li {
     display: inline-block;
     margin: 0;
 }
+
 nav li a, nav li a:visited {
     text-decoration: none;
     color: #13070c;
@@ -86,16 +84,14 @@ nav li a:hover {
     
 }
 
-nav#menu 
-{
+nav#menu {
     float: right;
     margin: 1.5em 0 0 0;
     padding: 0.35em;
     height: 1.3em;
    
 }
-nav#menu li 
-{
+nav#menu li {
     padding: 0 0.25em 0 0.2em;
     vertical-align: middle;    
 }
@@ -130,7 +126,7 @@ nav#menutwo{
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-radius: 2em;
     border-bottom: rgb(146, 7, 53 solid 2em);
-   /* background: url("../3-assests/Cherry\ Blossom.jpg") no-repeat top;*/
+   
  }
 
  #middleimage{
@@ -150,8 +146,7 @@ nav#menutwo{
      float:center;
  }
 
- h3
- {
+ h3{
      color: rgba(75, 67, 70, 0.603);
      font-size: 1.5em;
      margin: 0.5em 0 0.5em 0;
@@ -161,18 +156,7 @@ nav#menutwo{
      float:center;
  }   
  
- /*section img{
-
- margin: 0 0 2.0em;
- padding: 1.5em  0 2.0em 1.5em;
- display: inline-block;
- border-radius: 4em;
- background:#fff;
- width:100%;
- height:auto;
- margin-bottom: 20px;
- box-sizing:border-box;
- }*/
+ 
 
  .container img{
     background:#fff;   
@@ -187,9 +171,10 @@ nav#menutwo{
      column-gap: 10px;
      width:max;
      margin: 0 auto;
-     padding-left: 3em;
-     padding-right: 3em;
-     position: relative;
+     position:inherit;
+     padding: 0.7em 0.5em 2.0em 1.7em;
+     margin: 0em;
+   
 
  }
 
@@ -199,7 +184,9 @@ footer {
     background-color:rgb(145, 131, 136);
     height: 250px;
     width:100%;
-    padding-top:inherit
+    padding: 0.7em 0.5em 2.0em 1.7em;
+    margin: 0em;
+    
   
 }
    
