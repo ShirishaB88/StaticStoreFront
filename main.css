@@ -34,14 +34,9 @@ header
     background: url("../3-assests/Cherry\ Blossom.jpg");
     padding: 0.7em 0.5em 2.0em 1.7em;
     margin: 0em;
+}   
     
     
-    /*display:flex;
-    /*align-items: center;
-    justify-content:space-between;
-    margin: 0em;
-    padding: 0.5em 0 0.5e;*/
-}
 ol
 {
     font-size: 1.5em;
@@ -200,23 +195,47 @@ nav#menutwo{
 
 
 footer {
-    position:relative;
-    background-color:rgb(252, 249, 246);
-    height: 100px;
+    position:inherit;
+    background-color:rgb(145, 131, 136);
+    height: 250px;
     width:100%;
-    bottom: 0px;
-}
-
-footer.socialicon{
-    width: 2em;
-    height: 2em;
-    padding: .05em;
+    padding-top:inherit
   
+}
+   
     
+
+
+
+.footermenu{
+  text-align:center;
+  overflow: auto;
+  padding-top: inherit;
+  text-decoration: none
+
 }
 
+footer ul li {
+ list-style:none;
+ font-size: 1em;
+ display: list-item;
+ 
+ font-family: open sans,sans-serif;
 
-   
+}
+
+footer ul{
+  display: inline-block;
+  text-align:start;
+  padding: 70px;
+  padding-top: 10px;
+}
+
+.socialicon li{
+  display:inline-block;
+ 
+}
+
 
 button{
     padding: 9px 25px;
@@ -233,3 +252,18 @@ button{
 button:hover{
     background-color: gold;
 }
+
+
+
+
+
+   
+    
+    
+   
+
+
+    
+
+
+   
